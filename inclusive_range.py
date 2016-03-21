@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 
-class inclusive_range:
+class InclusiveRange:
 
     def __init__(self, *args):
         numargs = len(args)
@@ -25,7 +25,7 @@ class inclusive_range:
 
 def main():
 
-    for i in inclusive_range(30):
+    for i in InclusiveRange(30):
         print(i)
 
 if __name__ == "__main__": main()
