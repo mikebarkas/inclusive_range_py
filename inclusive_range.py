@@ -2,6 +2,7 @@
 
 
 class inclusive_range:
+
     def __init__(self, *args):
         numargs = len(args)
         if numargs < 1: raise TypeError('Requires at least one argument')
@@ -23,6 +24,7 @@ class inclusive_range:
             i += self.step
 
 def main():
+
     for i in inclusive_range(30):
         print(i)
 
