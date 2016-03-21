@@ -26,6 +26,7 @@ class InclusiveRange:
             yield i
             i += self.step
 
+
 def main():
 
     for i in InclusiveRange(30):
